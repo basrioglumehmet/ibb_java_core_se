@@ -1,3 +1,19 @@
+# What is Apache Maven ?
+Apache Maven is a Java-based project management tool. It's simplifying the development.
+Includes Project Object Model known as pom.xml for builds and managing the dependencies.
+## Maven Logic
+- Read the config pom.xml
+- Find the dependencies on m2
+- If the dependency does not exist, download the dependency from the Maven repository.
+## Maven directory layout
+- src/main/java: Java Command etc.
+- src/main/resource: Config files
+- src/main/webapp: JSP, JSF etc. (WEB-INF and Meta-INF)
+- src/test: Unit tests
+- /target: The compiled Java package is held in here.
+
+## What we'll see on the POM XML config file
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- The XML version is specified as 1.0 and the character encoding is set to UTF-8,
      which supports international character representation. -->
@@ -5,7 +21,7 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
-    <!-- Specifies the version of the Project Object Model (POM).
+    <!-- Specifies the version of the Project Object Model (POM). 
          Maven 2.x and 3.x use the 4.0.0 model. -->
     <modelVersion>4.0.0</modelVersion>
 
@@ -55,7 +71,7 @@
             <version>8.0.28</version>
         </dependency>
 
-        <!-- Lombok library to reduce boilerplate code.
+        <!-- Lombok library to reduce boilerplate code. 
              "provided" scope ensures it's only used during compilation and not included at runtime. -->
         <dependency>
             <groupId>org.projectlombok</groupId>
@@ -86,3 +102,15 @@
         </plugins>
     </build>
 </project>
+
+```
+
+## We must know the Maven commands.
+- mvn install: Installing the packages to the m2
+- mvn clean: cleaning the build
+- mvn test: running the test
+- mvn compile: combined clean and validate commands.
+- mvn package: Turn into the package
+- mvn site: Generating the site doc.
+
+<b>The end.</b>
