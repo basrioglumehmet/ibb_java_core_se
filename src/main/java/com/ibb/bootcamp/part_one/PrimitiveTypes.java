@@ -20,9 +20,11 @@ public class PrimitiveTypes {
         System.out.println("long: "+l1);
 
         // virgüllü (floating point)
+        //Sektörde bankalar tarafından kullanılır
         float f2=3.14f;
         System.out.println("float: "+f2);
 
+        //Sektörde bankalar tarafından kullanılır
         double d2=3.14;
         System.out.println("double: "+d2); // bellekte çok yer kaplar.
 
