@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afe57650-8588-4f0b-b842-8e4e3df0f110" name="Changes" comment="cherry">
+    <list default="true" id="afe57650-8588-4f0b-b842-8e4e3df0f110" name="Changes" comment="data types #1">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/part_one/PrimitiveTypes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/part_one/Variables.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/_1_datatypes/_1_JavaTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/_1_datatypes/_1_JavaTypes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/_1_datatypes/_1_JavaTypes.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,12 +102,12 @@
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="_1_JavaTypes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ibb.bootcamp._1_datatypes._1_JavaTypes" />
+    <configuration name="PrimitiveTypes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ibb.bootcamp.part_one.PrimitiveTypes" />
       <module name="ibb_java_core_se" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ibb.bootcamp._1_datatypes.*" />
+          <option name="PATTERN" value="com.ibb.bootcamp.part_one.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,7 +117,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application._1_JavaTypes" />
+        <item itemvalue="Application.PrimitiveTypes" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +178,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738855164012</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="data types #1">
+      <option name="closed" value="true" />
+      <created>1738856456195</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1738856456195</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -196,6 +207,7 @@
     <MESSAGE value="Java Core - JVM&#10;Detailed in the external file as readme. Also, this commit including other updates." />
     <MESSAGE value="Java Core - Java Features&#10;Detailed in the external file as readme. Also, this commit including other updates." />
     <MESSAGE value="cherry" />
-    <option name="LAST_COMMIT_MESSAGE" value="cherry" />
+    <MESSAGE value="data types #1" />
+    <option name="LAST_COMMIT_MESSAGE" value="data types #1" />
   </component>
 </project>
