@@ -4,14 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afe57650-8588-4f0b-b842-8e4e3df0f110" name="Changes" comment="Java Core - JVM&#10;Detailed in the external file as readme. Also, this commit including other updates.">
-      <change afterPath="$PROJECT_DIR$/Java_Features.md" afterDir="false" />
+    <list default="true" id="afe57650-8588-4f0b-b842-8e4e3df0f110" name="Changes" comment="cherry">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/_1_datatypes/_1_JavaTypes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -22,10 +29,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;basrioglumehmet&quot;
-  }
+  &quot;lastFilter&quot;: {}
 }</component>
   <component name="GitToolBoxStore">
     <option name="recentBranches">
@@ -60,6 +64,16 @@
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/basrioglumehmet/ibb_java_core_se.git&quot;,
     &quot;accountId&quot;: &quot;cc4b81ee-1d3f-4538-bbd8-42ab4e686b32&quot;
+  },
+  &quot;recentNewPullRequestHead&quot;: {
+    &quot;server&quot;: {
+      &quot;useHttp&quot;: false,
+      &quot;host&quot;: &quot;github.com&quot;,
+      &quot;port&quot;: null,
+      &quot;suffix&quot;: null
+    },
+    &quot;owner&quot;: &quot;basrioglumehmet&quot;,
+    &quot;repository&quot;: &quot;ibb_java_core_se&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -71,18 +85,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "git-widget-placeholder": "java__features",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "settings.editor.selected.configurable": "advanced.settings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;java__features&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -124,7 +138,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738852837897</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Java Core - Java Features&#10;Detailed in the external file as readme. Also, this commit including other updates.">
+      <option name="closed" value="true" />
+      <created>1738853393796</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1738853393796</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -143,6 +165,8 @@
     <MESSAGE value="Java Core Readme file" />
     <MESSAGE value="Java Core Apache&#10;What is the Apache Maven? detailed in the external file as readme. Also, this commit including other updates." />
     <MESSAGE value="Java Core - JVM&#10;Detailed in the external file as readme. Also, this commit including other updates." />
-    <option name="LAST_COMMIT_MESSAGE" value="Java Core - JVM&#10;Detailed in the external file as readme. Also, this commit including other updates." />
+    <MESSAGE value="Java Core - Java Features&#10;Detailed in the external file as readme. Also, this commit including other updates." />
+    <MESSAGE value="cherry" />
+    <option name="LAST_COMMIT_MESSAGE" value="cherry" />
   </component>
 </project>
