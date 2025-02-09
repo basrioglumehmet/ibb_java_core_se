@@ -9,6 +9,8 @@ public class PrimeNumber {
             a number that can only be divided by itself and 1 without remainders
             WARNING! 1 only has one factor, so 1 isn't a prime number.
         */
+
+        System.out.println("Write a number:");
         Scanner scanner = new Scanner(System.in);
         int num = scanner.nextInt();
         boolean isPrime = true;

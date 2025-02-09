@@ -6,6 +6,8 @@ public class Factorial {
     public static void main(String[] args) {
         int n;
         //Q: Calculate the factorial and get number from user
+
+        System.out.println("Write a number:");
         Scanner scanner  = new Scanner(System.in);
         int result = 1;
         //Formula: n × (n-1) × (n-2) × (n-3) × ..... × 3 × 2 × 1.
