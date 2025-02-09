@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="afe57650-8588-4f0b-b842-8e4e3df0f110" name="Changes" comment="Interview Solutions">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/part_one/interview/ArmstrongNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/part_one/interview/ReversedNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/part_one/interview/NumberToBinary.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/part_one/interview/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/part_one/interview/Factorial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/part_one/interview/PrimeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/part_one/interview/PrimeNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +91,7 @@
     "Application.Factorial.executor": "Run",
     "Application.FibonacciSequence.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.NumberToBinary.executor": "Run",
     "Application.PrimeNumber.executor": "Run",
     "Application.PrimitiveTypes.executor": "Run",
     "Application.Questions.executor": "Run",
@@ -109,7 +107,7 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ArmstrongNumber">
+  <component name="RunManager" selected="Application.NumberToBinary">
     <configuration name="ArmstrongNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ibb.bootcamp.part_one.interview.ArmstrongNumber" />
       <module name="ibb_java_core_se" />
@@ -123,8 +121,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ibb.bootcamp.part_one.interview.Factorial" />
+    <configuration name="FibonacciSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ibb.bootcamp.part_one.interview.FibonacciSequence" />
       <module name="ibb_java_core_se" />
       <extension name="coverage">
         <pattern>
@@ -136,8 +134,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FibonacciSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ibb.bootcamp.part_one.interview.FibonacciSequence" />
+    <configuration name="NumberToBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ibb.bootcamp.part_one.interview.NumberToBinary" />
       <module name="ibb_java_core_se" />
       <extension name="coverage">
         <pattern>
@@ -177,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NumberToBinary" />
         <item itemvalue="Application.ArmstrongNumber" />
         <item itemvalue="Application.ReversedNumber" />
         <item itemvalue="Application.FibonacciSequence" />
         <item itemvalue="Application.PrimeNumber" />
-        <item itemvalue="Application.Factorial" />
       </list>
     </recent_temporary>
   </component>
@@ -290,7 +288,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739099648656</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Interview Solutions">
+      <option name="closed" value="true" />
+      <created>1739114723114</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1739114723114</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
