@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="afe57650-8588-4f0b-b842-8e4e3df0f110" name="Changes" comment="Interview Solutions">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/part_one/interview/NumberToBinary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/part_one/interview/DigitMultiplier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/part_one/interview/FindBiggestNumberDigit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/part_one/interview/FindExactDivisorByPrimeNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,8 +90,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.ArmstrongNumber.executor": "Run",
+    "Application.ExactDivisor.executor": "Run",
     "Application.Factorial.executor": "Run",
     "Application.FibonacciSequence.executor": "Run",
+    "Application.FindBiggestNumberDigit.executor": "Run",
+    "Application.FindDigitCount.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.NumberToBinary.executor": "Run",
     "Application.PrimeNumber.executor": "Run",
@@ -107,7 +112,7 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.NumberToBinary">
+  <component name="RunManager" selected="Application.FindBiggestNumberDigit">
     <configuration name="ArmstrongNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ibb.bootcamp.part_one.interview.ArmstrongNumber" />
       <module name="ibb_java_core_se" />
@@ -121,8 +126,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FibonacciSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ibb.bootcamp.part_one.interview.FibonacciSequence" />
+    <configuration name="ExactDivisor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ibb.bootcamp.part_one.interview.ExactDivisor" />
+      <module name="ibb_java_core_se" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ibb.bootcamp.part_one.interview.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindBiggestNumberDigit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ibb.bootcamp.part_one.interview.FindBiggestNumberDigit" />
+      <module name="ibb_java_core_se" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ibb.bootcamp.part_one.interview.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindDigitCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ibb.bootcamp.part_one.interview.FindDigitCount" />
       <module name="ibb_java_core_se" />
       <extension name="coverage">
         <pattern>
@@ -147,39 +178,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimeNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ibb.bootcamp.part_one.interview.PrimeNumber" />
-      <module name="ibb_java_core_se" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ibb.bootcamp.part_one.interview.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReversedNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ibb.bootcamp.part_one.interview.ReversedNumber" />
-      <module name="ibb_java_core_se" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ibb.bootcamp.part_one.interview.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindBiggestNumberDigit" />
+        <item itemvalue="Application.FindDigitCount" />
+        <item itemvalue="Application.ExactDivisor" />
         <item itemvalue="Application.NumberToBinary" />
         <item itemvalue="Application.ArmstrongNumber" />
-        <item itemvalue="Application.ReversedNumber" />
-        <item itemvalue="Application.FibonacciSequence" />
-        <item itemvalue="Application.PrimeNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -296,7 +301,23 @@
       <option name="project" value="LOCAL" />
       <updated>1739114723114</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Interview Solutions">
+      <option name="closed" value="true" />
+      <created>1739116906367</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1739116906367</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Interview Solutions">
+      <option name="closed" value="true" />
+      <created>1739210847037</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1739210847037</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
