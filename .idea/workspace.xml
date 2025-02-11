@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="afe57650-8588-4f0b-b842-8e4e3df0f110" name="Changes" comment="Interview Solutions">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/part_one/interview/DigitMultiplier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/part_one/interview/FindBiggestNumberDigit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/part_one/interview/FindExactDivisorByPrimeNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/part_one/interview/IsMultipleOfFive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/part_one/interview/SumOfAllNumbers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,18 +89,23 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.ArmstrongNumber.executor": "Run",
+    "Application.DigitMultiplier.executor": "Run",
     "Application.ExactDivisor.executor": "Run",
     "Application.Factorial.executor": "Run",
     "Application.FibonacciSequence.executor": "Run",
     "Application.FindBiggestNumberDigit.executor": "Run",
     "Application.FindDigitCount.executor": "Run",
+    "Application.IsMultipleOfFive.executor": "Run",
+    "Application.IsOddOrEven.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.NumberToBinary.executor": "Run",
     "Application.PrimeNumber.executor": "Run",
     "Application.PrimitiveTypes.executor": "Run",
+    "Application.PrintOddNumbers.executor": "Run",
     "Application.Questions.executor": "Run",
     "Application.ReversedNumber.executor": "Run",
     "Application.SimpleEquation.executor": "Run",
+    "Application.SumOfAllNumbers.executor": "Run",
     "Application._1_JavaTypes.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -112,9 +116,9 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.FindBiggestNumberDigit">
-    <configuration name="ArmstrongNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ibb.bootcamp.part_one.interview.ArmstrongNumber" />
+  <component name="RunManager" selected="Application.IsMultipleOfFive">
+    <configuration name="DigitMultiplier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ibb.bootcamp.part_one.interview.DigitMultiplier" />
       <module name="ibb_java_core_se" />
       <extension name="coverage">
         <pattern>
@@ -126,8 +130,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExactDivisor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ibb.bootcamp.part_one.interview.ExactDivisor" />
+    <configuration name="IsMultipleOfFive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ibb.bootcamp.part_one.interview.IsMultipleOfFive" />
       <module name="ibb_java_core_se" />
       <extension name="coverage">
         <pattern>
@@ -139,8 +143,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindBiggestNumberDigit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ibb.bootcamp.part_one.interview.FindBiggestNumberDigit" />
+    <configuration name="IsOddOrEven" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ibb.bootcamp.part_one.interview.IsOddOrEven" />
       <module name="ibb_java_core_se" />
       <extension name="coverage">
         <pattern>
@@ -152,8 +156,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindDigitCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ibb.bootcamp.part_one.interview.FindDigitCount" />
+    <configuration name="PrintOddNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ibb.bootcamp.part_one.interview.PrintOddNumbers" />
       <module name="ibb_java_core_se" />
       <extension name="coverage">
         <pattern>
@@ -165,8 +169,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberToBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ibb.bootcamp.part_one.interview.NumberToBinary" />
+    <configuration name="SumOfAllNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ibb.bootcamp.part_one.interview.SumOfAllNumbers" />
       <module name="ibb_java_core_se" />
       <extension name="coverage">
         <pattern>
@@ -180,11 +184,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FindBiggestNumberDigit" />
-        <item itemvalue="Application.FindDigitCount" />
-        <item itemvalue="Application.ExactDivisor" />
-        <item itemvalue="Application.NumberToBinary" />
-        <item itemvalue="Application.ArmstrongNumber" />
+        <item itemvalue="Application.IsMultipleOfFive" />
+        <item itemvalue="Application.SumOfAllNumbers" />
+        <item itemvalue="Application.PrintOddNumbers" />
+        <item itemvalue="Application.IsOddOrEven" />
+        <item itemvalue="Application.DigitMultiplier" />
       </list>
     </recent_temporary>
   </component>
@@ -317,7 +321,23 @@
       <option name="project" value="LOCAL" />
       <updated>1739210847037</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Interview Solutions">
+      <option name="closed" value="true" />
+      <created>1739279126507</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1739279126508</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Interview Solutions">
+      <option name="closed" value="true" />
+      <created>1739284330148</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1739284330148</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
