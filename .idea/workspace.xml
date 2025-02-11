@@ -5,9 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="afe57650-8588-4f0b-b842-8e4e3df0f110" name="Changes" comment="Interview Solutions">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/part_one/interview/IsMultipleOfFive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/part_one/interview/SumOfAllNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/week_2/interview/OddOrEven.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/week_2/interview/Return_Continue_Break.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/part_one/NonPrimitiveTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/week_1/NonPrimitiveTypes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/part_one/PrimitiveTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/week_1/PrimitiveTypes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/part_one/Variables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/week_1/Variables.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/part_one/WrapperTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/week_1/WrapperTypes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/part_one/interview/ArmstrongNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/week_1/interview/ArmstrongNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/part_one/interview/CelsiusToFahrenheit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/week_1/interview/CelsiusToFahrenheit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/part_one/interview/DigitMultiplier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/week_1/interview/DigitMultiplier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/part_one/interview/ExactDivisor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/week_1/interview/ExactDivisor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/part_one/interview/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/week_1/interview/Factorial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/part_one/interview/FibonacciSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/week_1/interview/FibonacciSequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/part_one/interview/FindBiggestNumberDigit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/week_1/interview/FindBiggestNumberDigit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/part_one/interview/FindDigitCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/week_1/interview/FindDigitCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/part_one/interview/FindExactDivisorByPrimeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/week_1/interview/FindExactDivisorByPrimeNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/part_one/interview/IsMultipleOfFive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/week_1/interview/IsMultipleOfFive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/part_one/interview/IsOddOrEven.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/week_1/interview/IsOddOrEven.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/part_one/interview/NumberToBinary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/week_1/interview/NumberToBinary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/part_one/interview/PrimeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/week_1/interview/PrimeNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/part_one/interview/PrintOddNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/week_1/interview/PrintOddNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/part_one/interview/ReversedNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/week_1/interview/ReversedNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/part_one/interview/SimpleEquation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/week_1/interview/SimpleEquation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/part_one/interview/SumOfAllNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/week_1/interview/SumOfAllNumbers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,10 +120,12 @@
     "Application.IsOddOrEven.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.NumberToBinary.executor": "Run",
+    "Application.OddOrEven.executor": "Run",
     "Application.PrimeNumber.executor": "Run",
     "Application.PrimitiveTypes.executor": "Run",
     "Application.PrintOddNumbers.executor": "Run",
     "Application.Questions.executor": "Run",
+    "Application.Return_Continue_Break.executor": "Run",
     "Application.ReversedNumber.executor": "Run",
     "Application.SimpleEquation.executor": "Run",
     "Application.SumOfAllNumbers.executor": "Run",
@@ -116,26 +139,13 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.IsMultipleOfFive">
-    <configuration name="DigitMultiplier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ibb.bootcamp.part_one.interview.DigitMultiplier" />
-      <module name="ibb_java_core_se" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ibb.bootcamp.part_one.interview.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Return_Continue_Break">
     <configuration name="IsMultipleOfFive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ibb.bootcamp.part_one.interview.IsMultipleOfFive" />
+      <option name="MAIN_CLASS_NAME" value="com.ibb.bootcamp.week_1.interview.IsMultipleOfFive" />
       <module name="ibb_java_core_se" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ibb.bootcamp.part_one.interview.*" />
+          <option name="PATTERN" value="com.ibb.bootcamp.week_1.interview.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,12 +153,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IsOddOrEven" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ibb.bootcamp.part_one.interview.IsOddOrEven" />
+    <configuration name="OddOrEven" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ibb.bootcamp.week_2.interview.OddOrEven" />
       <module name="ibb_java_core_se" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ibb.bootcamp.part_one.interview.*" />
+          <option name="PATTERN" value="com.ibb.bootcamp.week_2.interview.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,11 +167,24 @@
       </method>
     </configuration>
     <configuration name="PrintOddNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ibb.bootcamp.part_one.interview.PrintOddNumbers" />
+      <option name="MAIN_CLASS_NAME" value="com.ibb.bootcamp.week_1.interview.PrintOddNumbers" />
       <module name="ibb_java_core_se" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ibb.bootcamp.part_one.interview.*" />
+          <option name="PATTERN" value="com.ibb.bootcamp.week_1.interview.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Return_Continue_Break" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ibb.bootcamp.week_2.interview.Return_Continue_Break" />
+      <module name="ibb_java_core_se" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ibb.bootcamp.week_2.interview.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,11 +193,11 @@
       </method>
     </configuration>
     <configuration name="SumOfAllNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ibb.bootcamp.part_one.interview.SumOfAllNumbers" />
+      <option name="MAIN_CLASS_NAME" value="com.ibb.bootcamp.week_1.interview.SumOfAllNumbers" />
       <module name="ibb_java_core_se" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ibb.bootcamp.part_one.interview.*" />
+          <option name="PATTERN" value="com.ibb.bootcamp.week_1.interview.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -184,11 +207,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Return_Continue_Break" />
+        <item itemvalue="Application.OddOrEven" />
         <item itemvalue="Application.IsMultipleOfFive" />
         <item itemvalue="Application.SumOfAllNumbers" />
         <item itemvalue="Application.PrintOddNumbers" />
-        <item itemvalue="Application.IsOddOrEven" />
-        <item itemvalue="Application.DigitMultiplier" />
       </list>
     </recent_temporary>
   </component>
@@ -337,7 +360,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739284330148</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Interview Solutions">
+      <option name="closed" value="true" />
+      <created>1739287512643</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1739287512644</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

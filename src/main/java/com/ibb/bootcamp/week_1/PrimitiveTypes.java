@@ -1,4 +1,4 @@
-package com.ibb.bootcamp.part_one;
+package com.ibb.bootcamp.week_1;
 
 public class PrimitiveTypes {
     public static void main(String[] args) {

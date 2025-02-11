@@ -1,15 +1,16 @@
-package com.ibb.bootcamp.part_one.interview;
+package com.ibb.bootcamp.week_2.interview;
 
 import java.util.Scanner;
 
-public class IsOddOrEven {
+public class OddOrEven {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Write a number:");
-        int number = scanner.nextInt();
-        if (number % 2 == 0) {
+        int number = scanner.nextInt(); // Get input
+        //Low bit manipulation
+        if((number & 1) == 0){
             System.out.println("Çift");
-        } else {
+        }
+        else{
             System.out.println("Tek");
         }
     }

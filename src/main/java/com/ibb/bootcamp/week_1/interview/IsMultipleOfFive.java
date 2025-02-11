@@ -1,4 +1,4 @@
-package com.ibb.bootcamp.part_one.interview;
+package com.ibb.bootcamp.week_1.interview;
 
 import java.util.Scanner;
 
