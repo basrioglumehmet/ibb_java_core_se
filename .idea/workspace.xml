@@ -4,18 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afe57650-8588-4f0b-b842-8e4e3df0f110" name="Changes" comment="Strings">
-      <change afterPath="$PROJECT_DIR$/Method_Overriding_Overloading.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Statics.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img_10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img_11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img_12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img_13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img_14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img_7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img_8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img_9.png" afterDir="false" />
+    <list default="true" id="afe57650-8588-4f0b-b842-8e4e3df0f110" name="Changes" comment="Overriding, Overloading and statics">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/week_2/ArrayExamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/week_2/LocalDateFormatExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/week_2/PrimitiveCasting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/week_2/ReferenceCasting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/week_2/SimpleDateFormatExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/week_2/StringFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/week_2/examples/DateFormatExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/week_2/examples/ReturnMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/week_2/java_8_features/FunctionalInterfaceExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/week_2/java_8_features/InterfaceDefaults.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/week_2/java_8_features/Optionals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/week_2/java_8_features/Streams.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,45 +96,56 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.ArmstrongNumber.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DigitMultiplier.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExactDivisor.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Factorial.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FibonacciSequence.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindBiggestNumberDigit.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindDigitCount.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IsMultipleOfFive.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IsOddOrEven.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NumberToBinary.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OddOrEven.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PrimeNumber.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PrimitiveTypes.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PrintOddNumbers.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Questions.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Return_Continue_Break.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReversedNumber.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SimpleEquation.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SumOfAllNumbers.executor&quot;: &quot;Run&quot;,
-    &quot;Application._1_JavaTypes.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ArmstrongNumber.executor": "Run",
+    "Application.ArrayExamples.executor": "Run",
+    "Application.DateFormatExample.executor": "Run",
+    "Application.DigitMultiplier.executor": "Run",
+    "Application.ExactDivisor.executor": "Run",
+    "Application.Factorial.executor": "Run",
+    "Application.FibonacciSequence.executor": "Run",
+    "Application.FindBiggestNumberDigit.executor": "Run",
+    "Application.FindDigitCount.executor": "Run",
+    "Application.FunctionalInterfaceExample.executor": "Run",
+    "Application.InterfaceDefaults.executor": "Run",
+    "Application.IsMultipleOfFive.executor": "Run",
+    "Application.IsOddOrEven.executor": "Run",
+    "Application.LocalDateFormatExample.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.NumberToBinary.executor": "Run",
+    "Application.OddOrEven.executor": "Run",
+    "Application.Optionals.executor": "Run",
+    "Application.PrimeNumber.executor": "Run",
+    "Application.PrimitiveTypes.executor": "Run",
+    "Application.PrintOddNumbers.executor": "Run",
+    "Application.Questions.executor": "Run",
+    "Application.ReferenceCasting.executor": "Run",
+    "Application.ReturnMethods.executor": "Run",
+    "Application.Return_Continue_Break.executor": "Run",
+    "Application.ReversedNumber.executor": "Run",
+    "Application.SimpleDateFormatExample.executor": "Run",
+    "Application.SimpleEquation.executor": "Run",
+    "Application.Streams.executor": "Run",
+    "Application.StringFormatter.executor": "Run",
+    "Application.SumOfAllNumbers.executor": "Run",
+    "Application._1_JavaTypes.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
-  <component name="RunManager" selected="Application.Return_Continue_Break">
-    <configuration name="IsMultipleOfFive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ibb.bootcamp.week_1.interview.IsMultipleOfFive" />
+}]]></component>
+  <component name="RunManager" selected="Application.InterfaceDefaults">
+    <configuration name="ArrayExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ibb.bootcamp.week_2.ArrayExamples" />
       <module name="ibb_java_core_se" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ibb.bootcamp.week_1.interview.*" />
+          <option name="PATTERN" value="com.ibb.bootcamp.week_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,12 +153,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OddOrEven" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ibb.bootcamp.week_2.interview.OddOrEven" />
+    <configuration name="FunctionalInterfaceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ibb.bootcamp.week_2.java_8_features.FunctionalInterfaceExample" />
       <module name="ibb_java_core_se" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ibb.bootcamp.week_2.interview.*" />
+          <option name="PATTERN" value="com.ibb.bootcamp.week_2.java_8_features.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,12 +166,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintOddNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ibb.bootcamp.week_1.interview.PrintOddNumbers" />
+    <configuration name="InterfaceDefaults" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ibb.bootcamp.week_2.java_8_features.InterfaceDefaults" />
       <module name="ibb_java_core_se" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ibb.bootcamp.week_1.interview.*" />
+          <option name="PATTERN" value="com.ibb.bootcamp.week_2.java_8_features.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,12 +179,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Return_Continue_Break" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ibb.bootcamp.week_2.interview.Return_Continue_Break" />
+    <configuration name="Optionals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ibb.bootcamp.week_2.java_8_features.Optionals" />
       <module name="ibb_java_core_se" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ibb.bootcamp.week_2.interview.*" />
+          <option name="PATTERN" value="com.ibb.bootcamp.week_2.java_8_features.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,12 +192,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumOfAllNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ibb.bootcamp.week_1.interview.SumOfAllNumbers" />
+    <configuration name="Streams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ibb.bootcamp.week_2.java_8_features.Streams" />
       <module name="ibb_java_core_se" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ibb.bootcamp.week_1.interview.*" />
+          <option name="PATTERN" value="com.ibb.bootcamp.week_2.java_8_features.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -195,11 +207,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Return_Continue_Break" />
-        <item itemvalue="Application.OddOrEven" />
-        <item itemvalue="Application.IsMultipleOfFive" />
-        <item itemvalue="Application.SumOfAllNumbers" />
-        <item itemvalue="Application.PrintOddNumbers" />
+        <item itemvalue="Application.InterfaceDefaults" />
+        <item itemvalue="Application.Optionals" />
+        <item itemvalue="Application.Streams" />
+        <item itemvalue="Application.FunctionalInterfaceExample" />
+        <item itemvalue="Application.ArrayExamples" />
       </list>
     </recent_temporary>
   </component>
@@ -380,7 +392,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739302560677</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Overriding, Overloading and statics">
+      <option name="closed" value="true" />
+      <created>1739388191804</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1739388191804</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -407,6 +427,18 @@
     <MESSAGE value="Latest homeworks." />
     <MESSAGE value="Interview Solutions" />
     <MESSAGE value="Strings" />
-    <option name="LAST_COMMIT_MESSAGE" value="Strings" />
+    <MESSAGE value="Overriding, Overloading and statics" />
+    <option name="LAST_COMMIT_MESSAGE" value="Overriding, Overloading and statics" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/week_2/examples/ReturnMethods.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
