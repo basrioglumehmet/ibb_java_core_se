@@ -1,4 +1,4 @@
-package com.ibb.bootcamp.week_2;
+package com.ibb.bootcamp.week_2.java_8_features;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
