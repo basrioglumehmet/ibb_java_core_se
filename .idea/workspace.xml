@@ -4,19 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afe57650-8588-4f0b-b842-8e4e3df0f110" name="Changes" comment="Overriding, Overloading and statics">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/week_2/ArrayExamples.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/week_2/LocalDateFormatExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/week_2/PrimitiveCasting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/week_2/ReferenceCasting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/week_2/SimpleDateFormatExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/week_2/StringFormatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/week_2/examples/DateFormatExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/week_2/examples/ReturnMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/week_2/java_8_features/FunctionalInterfaceExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/week_2/java_8_features/InterfaceDefaults.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/week_2/java_8_features/Optionals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/week_2/java_8_features/Streams.java" afterDir="false" />
+    <list default="true" id="afe57650-8588-4f0b-b842-8e4e3df0f110" name="Changes" comment="Java 8">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/project_1/Project1Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/project_1/controller/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/project_1/dto/StudentDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/project_1/pojo/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/project_1/service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/project_1/service/StudentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/week_2/examples/SerializableExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +22,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -100,6 +96,9 @@
   "keyToString": {
     "Application.ArmstrongNumber.executor": "Run",
     "Application.ArrayExamples.executor": "Run",
+    "Application.BiConsumerDemo.executor": "Run",
+    "Application.BiFunctionInterface.executor": "Run",
+    "Application.BiPredicateDemo.executor": "Run",
     "Application.DateFormatExample.executor": "Run",
     "Application.DigitMultiplier.executor": "Run",
     "Application.ExactDivisor.executor": "Run",
@@ -107,6 +106,7 @@
     "Application.FibonacciSequence.executor": "Run",
     "Application.FindBiggestNumberDigit.executor": "Run",
     "Application.FindDigitCount.executor": "Run",
+    "Application.ForEach.executor": "Run",
     "Application.FunctionalInterfaceExample.executor": "Run",
     "Application.InterfaceDefaults.executor": "Run",
     "Application.IsMultipleOfFive.executor": "Run",
@@ -119,16 +119,24 @@
     "Application.PrimeNumber.executor": "Run",
     "Application.PrimitiveTypes.executor": "Run",
     "Application.PrintOddNumbers.executor": "Run",
+    "Application.Project1Application.executor": "Run",
     "Application.Questions.executor": "Run",
     "Application.ReferenceCasting.executor": "Run",
     "Application.ReturnMethods.executor": "Run",
     "Application.Return_Continue_Break.executor": "Run",
     "Application.ReversedNumber.executor": "Run",
+    "Application.ScannerFileRead.executor": "Run",
+    "Application.SerializableExample.executor": "Run",
+    "Application.ShallowAndDeepCopy.executor": "Run",
+    "Application.ShallowCopy (1).executor": "Run",
+    "Application.ShallowCopy.executor": "Run",
     "Application.SimpleDateFormatExample.executor": "Run",
     "Application.SimpleEquation.executor": "Run",
     "Application.Streams.executor": "Run",
     "Application.StringFormatter.executor": "Run",
+    "Application.StringJoinerDemo.executor": "Run",
     "Application.SumOfAllNumbers.executor": "Run",
+    "Application.SupplierDemo.executor": "Run",
     "Application._1_JavaTypes.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -139,9 +147,42 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.InterfaceDefaults">
-    <configuration name="ArrayExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ibb.bootcamp.week_2.ArrayExamples" />
+  <component name="RunManager" selected="Application.SerializableExample">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="ibb_java_core_se" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Project1Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ibb.bootcamp.project_1.Project1Application" />
+      <module name="ibb_java_core_se" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ibb.bootcamp.project_1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SerializableExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ibb.bootcamp.week_2.examples.SerializableExample" />
+      <module name="ibb_java_core_se" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ibb.bootcamp.week_2.examples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShallowAndDeepCopy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ibb.bootcamp.week_2.ShallowAndDeepCopy" />
       <module name="ibb_java_core_se" />
       <extension name="coverage">
         <pattern>
@@ -153,65 +194,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FunctionalInterfaceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ibb.bootcamp.week_2.java_8_features.FunctionalInterfaceExample" />
+    <configuration name="ShallowCopy (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ShallowCopy" />
       <module name="ibb_java_core_se" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ibb.bootcamp.week_2.java_8_features.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InterfaceDefaults" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ibb.bootcamp.week_2.java_8_features.InterfaceDefaults" />
-      <module name="ibb_java_core_se" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ibb.bootcamp.week_2.java_8_features.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Optionals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ibb.bootcamp.week_2.java_8_features.Optionals" />
-      <module name="ibb_java_core_se" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ibb.bootcamp.week_2.java_8_features.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Streams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ibb.bootcamp.week_2.java_8_features.Streams" />
-      <module name="ibb_java_core_se" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ibb.bootcamp.week_2.java_8_features.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.InterfaceDefaults" />
-        <item itemvalue="Application.Optionals" />
-        <item itemvalue="Application.Streams" />
-        <item itemvalue="Application.FunctionalInterfaceExample" />
-        <item itemvalue="Application.ArrayExamples" />
+        <item itemvalue="Application.SerializableExample" />
+        <item itemvalue="Application.Project1Application" />
+        <item itemvalue="Application.ShallowAndDeepCopy" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ShallowCopy (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -400,7 +396,23 @@
       <option name="project" value="LOCAL" />
       <updated>1739388191804</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Java 8">
+      <option name="closed" value="true" />
+      <created>1739708572376</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1739708572376</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Java 8">
+      <option name="closed" value="true" />
+      <created>1739748846221</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1739748846221</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -428,7 +440,8 @@
     <MESSAGE value="Interview Solutions" />
     <MESSAGE value="Strings" />
     <MESSAGE value="Overriding, Overloading and statics" />
-    <option name="LAST_COMMIT_MESSAGE" value="Overriding, Overloading and statics" />
+    <MESSAGE value="Java 8" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java 8" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
