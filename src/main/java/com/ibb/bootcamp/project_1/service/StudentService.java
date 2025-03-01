@@ -7,6 +7,8 @@ public interface StudentService {
     Student read(int studentId);
     Student update(StudentDto studentDto);
     void delete(int studentId);
+    public void insertHeaders();
+
 
     static void loadStudentsFromFile() {
         //Override edilemez.

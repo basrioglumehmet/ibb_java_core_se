@@ -20,5 +20,7 @@ public class Student implements Serializable{
     private String fullName;
     private LocalDate birthDate = LocalDate.now();
     private LocalDateTime createdAt = LocalDateTime.now();
-    private double grade; //Başarı Puanı
+    private double midTerm; //Vize Notu
+    private double finalTerm; //Final Notu
+    private StudentResultTerm studentResultTerm;
 }

@@ -4,15 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afe57650-8588-4f0b-b842-8e4e3df0f110" name="Changes" comment="Java 8">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/project_1/Project1Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/project_1/controller/StudentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/project_1/dto/StudentDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/project_1/pojo/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/project_1/service/StudentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/project_1/service/StudentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/week_2/examples/SerializableExample.java" afterDir="false" />
+    <list default="true" id="afe57650-8588-4f0b-b842-8e4e3df0f110" name="Changes" comment="Something else">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/project_1/enums/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/project_1/enums/StudentGrade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/project_1/pojo/StudentResultTerm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/project_1/Project1Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/project_1/Project1Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/project_1/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/project_1/controller/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/project_1/dto/StudentDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/project_1/dto/StudentDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/project_1/pojo/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/project_1/pojo/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/project_1/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/project_1/service/StudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/project_1/service/StudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ibb/bootcamp/project_1/service/StudentServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +25,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -92,62 +95,62 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ArmstrongNumber.executor": "Run",
-    "Application.ArrayExamples.executor": "Run",
-    "Application.BiConsumerDemo.executor": "Run",
-    "Application.BiFunctionInterface.executor": "Run",
-    "Application.BiPredicateDemo.executor": "Run",
-    "Application.DateFormatExample.executor": "Run",
-    "Application.DigitMultiplier.executor": "Run",
-    "Application.ExactDivisor.executor": "Run",
-    "Application.Factorial.executor": "Run",
-    "Application.FibonacciSequence.executor": "Run",
-    "Application.FindBiggestNumberDigit.executor": "Run",
-    "Application.FindDigitCount.executor": "Run",
-    "Application.ForEach.executor": "Run",
-    "Application.FunctionalInterfaceExample.executor": "Run",
-    "Application.InterfaceDefaults.executor": "Run",
-    "Application.IsMultipleOfFive.executor": "Run",
-    "Application.IsOddOrEven.executor": "Run",
-    "Application.LocalDateFormatExample.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.NumberToBinary.executor": "Run",
-    "Application.OddOrEven.executor": "Run",
-    "Application.Optionals.executor": "Run",
-    "Application.PrimeNumber.executor": "Run",
-    "Application.PrimitiveTypes.executor": "Run",
-    "Application.PrintOddNumbers.executor": "Run",
-    "Application.Project1Application.executor": "Run",
-    "Application.Questions.executor": "Run",
-    "Application.ReferenceCasting.executor": "Run",
-    "Application.ReturnMethods.executor": "Run",
-    "Application.Return_Continue_Break.executor": "Run",
-    "Application.ReversedNumber.executor": "Run",
-    "Application.ScannerFileRead.executor": "Run",
-    "Application.SerializableExample.executor": "Run",
-    "Application.ShallowAndDeepCopy.executor": "Run",
-    "Application.ShallowCopy (1).executor": "Run",
-    "Application.ShallowCopy.executor": "Run",
-    "Application.SimpleDateFormatExample.executor": "Run",
-    "Application.SimpleEquation.executor": "Run",
-    "Application.Streams.executor": "Run",
-    "Application.StringFormatter.executor": "Run",
-    "Application.StringJoinerDemo.executor": "Run",
-    "Application.SumOfAllNumbers.executor": "Run",
-    "Application.SupplierDemo.executor": "Run",
-    "Application._1_JavaTypes.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ArmstrongNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayExamples.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BiConsumerDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BiFunctionInterface.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BiPredicateDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DateFormatExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DigitMultiplier.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExactDivisor.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Factorial.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FibonacciSequence.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindBiggestNumberDigit.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindDigitCount.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ForEach.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FunctionalInterfaceExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InterfaceDefaults.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IsMultipleOfFive.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IsOddOrEven.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LocalDateFormatExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NumberToBinary.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OddOrEven.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Optionals.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrimeNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrimitiveTypes.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrintOddNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Project1Application.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Questions.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReferenceCasting.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReturnMethods.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Return_Continue_Break.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReversedNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ScannerFileRead.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SerializableExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ShallowAndDeepCopy.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ShallowCopy (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ShallowCopy.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SimpleDateFormatExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SimpleEquation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Streams.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringFormatter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringJoinerDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SumOfAllNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SupplierDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application._1_JavaTypes.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.SerializableExample">
+}</component>
+  <component name="RunManager" selected="Application.Project1Application">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="ibb_java_core_se" />
@@ -203,8 +206,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SerializableExample" />
         <item itemvalue="Application.Project1Application" />
+        <item itemvalue="Application.SerializableExample" />
         <item itemvalue="Application.ShallowAndDeepCopy" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.ShallowCopy (1)" />
@@ -412,7 +415,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739748846221</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Something else">
+      <option name="closed" value="true" />
+      <created>1740451767941</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1740451767941</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -441,7 +452,8 @@
     <MESSAGE value="Strings" />
     <MESSAGE value="Overriding, Overloading and statics" />
     <MESSAGE value="Java 8" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java 8" />
+    <MESSAGE value="Something else" />
+    <option name="LAST_COMMIT_MESSAGE" value="Something else" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

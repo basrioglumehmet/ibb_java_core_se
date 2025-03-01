@@ -10,4 +10,5 @@ public class StudentController {
     public void create(StudentDto dto){
         this.studentService.create(dto);
     }
+    public void insertHeader(){this.studentService.insertHeaders();}
 }

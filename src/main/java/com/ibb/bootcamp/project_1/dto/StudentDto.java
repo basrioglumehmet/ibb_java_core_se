@@ -20,5 +20,6 @@ public class StudentDto implements Serializable {
     private String name;
     private String surname;
     private LocalDate birthDate = LocalDate.now();
-    private double grade; //Başarı Puanı
+    private double midTerm; //Vize Notu
+    private double finalTerm; //Final Notu
 }

@@ -8,8 +8,10 @@ import java.time.LocalDate;
 public class Project1Application {
     public static void main(String[] args) {
         StudentController controller = new StudentController();
+//controller.insertHeader();
         StudentDto studentDto = StudentDto.builder()
-                .grade(3.81d)
+                .midTerm(80)
+                .finalTerm(90)
                 .birthDate(LocalDate.of(2025,1,1))
                 .name("Mehmet")
                 .surname("Basrioğlu")
